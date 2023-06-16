@@ -1,11 +1,11 @@
 # Estudos-Display
 plano de aula extra
 
-A Grid e o Flexbox são modelos de layout compostos por dimensões diferentes que organizam os elementos de uma interface, ambos influenciam a estrutura do site através do CSS.
+A Grid e o Flexbox são modelos de layout compostos por dimensões diferentes que organizam os elementos de uma interface, ambos influenciam a estrutura do site através do CSS e normalmente susbstituem o uso do `float` e do `position`.
 
 # Grid
 Grid Layout é um sistema bidimensional de organização de linhas, com conjuntos verticais e horizontais.
-Dentro de um grid, respeitando a **configuração criada pelas suas linhas**, pode-se inserir elementos da marcação com funcionalidades diferentes, que susbstituem o uso do `float` e do `position`.
+Dentro de um grid, respeitando a **configuração criada pelas suas linhas**, pode-se inserir elementos da marcação com funcionalidades diferentes.
 
 **Bi-dimensionalidade:**
   A grid possui 2 tipos de dimensão, fixas ou flexíveis, fixas com o uso de pixels e flexiveis com o uso de porcentagem ou `fr`. 
@@ -50,8 +50,60 @@ Posicionamento das linhas dos itens
  `grid-column-gap`
  `grid-row-gap`
 
+# Flex
+O Flexbox Layout é um sistema unidimensional e flexível de organização e alinhamento de uma interface, priorizando o conteúdo.
+Ele não trabalha com o controle simultâneo das colunas e linhas, ou seja, ele lida com uma linha ou coluna de cada vez.
 
+**Eixos**
+O Flex possui 2 eixos de operação, principais e transversais.
 
+Principal:
+movido na direção principal, original.
 
+Transversal:
+movido perpendicular a direção principal.
 
+**Propriedades** 
 
+Flex-Direction:
+ordem dos itens
+
+```.teste{ display: flex; flex-direction:[row/ row-reverse/ column/ column-reverse];}```
+
+Wrap:
+posição e quebra dos itens em uma linha
+
+```.teste{ display: flex; flex-wrap:[wrap/ no-wrap/ wrap-reverse];}```
+
+Flow:
+direction e wrap simplificados, abreviados
+
+```.teste{ display: flex; flex-flow:[direction-wrap];}```
+
+Justify-Content:
+alinhamento dos itens
+
+```.teste{ display: flex; justify-content:[flex-start/flex-end/center/space-between/space-around];}```
+
+Align-Content:
+aprimoramento do wrap, distribuição das linhas
+
+```.teste{ display: flex; align-content:[stretch/flex-start/flex-end/center/space-between/space-around];}```
+
+Align-Itens:
+distribuição dos itens
+
+```.teste{ display: flex; align-items: [stretch/flex-start/flex-end/center/baseline];}```
+
+Align-Self:
+sobrescreve o align-itens
+
+```.teste{ display: flex; align-self: [auto/stretch/flex-start/flex-end/center/baseline];}```
+
+**Propriedades de Valores:**
+proporção do tamanho de um item
+
+```.teste {flex-grow:[número];}```
+```.teste {flex-shrink:[número];}```
+```.teste {flex-basis:[número];}```
+```.teste {order:[número];}```
