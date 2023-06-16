@@ -52,10 +52,10 @@ Ele não trabalha com o controle simultâneo das colunas e linhas, ou seja, ele 
 **Eixos**
 O Flex possui 2 eixos de operação, principais e transversais.
 
-Principal:
+- Principal:
 movido na direção principal, original.
 
-Transversal:
+- Transversal:
 movido perpendicular a direção principal.
 
 **Propriedades** 
@@ -107,7 +107,11 @@ proporção do tamanho de um item
 ```.teste {order:[número];}```
 
 
+
+
+
 refs:
+
 https://www.geeksforgeeks.org/comparison-between-css-grid-css-flexbox/
 
 https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout#c%C3%A9lulas_do_grid
