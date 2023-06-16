@@ -104,6 +104,21 @@ sobrescreve o align-itens
 proporção do tamanho de um item
 
 ```.teste {flex-grow:[número];}```
+
 ```.teste {flex-shrink:[número];}```
+
 ```.teste {flex-basis:[número];}```
+
 ```.teste {order:[número];}```
+
+
+refs:
+https://www.geeksforgeeks.org/comparison-between-css-grid-css-flexbox/
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout#c%C3%A9lulas_do_grid
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+
+https://www.devmedia.com.br/css3-flexbox-funcionamento-e-propriedades/29532#direction
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Relationship_of_flexbox_to_other_layout_methods
