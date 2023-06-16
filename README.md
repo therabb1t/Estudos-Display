@@ -38,17 +38,12 @@ Posicionamento dos rastros dos itens
 **Linhas de Grid:**
 Posicionamento das linhas dos itens
 
-`grid-column-start`
+```.teste { display: grid; [grid-column-start/ grid-column-end];}```
 
-`grid-column-end`
-
-`grid-row-start`
-
-`grid-row-end`
+```.teste { display: grid; [grid-row-start/ grid-row-end];}```
 
 **Separadores:**
- `grid-column-gap`
- `grid-row-gap`
+```.teste { display: grid; [grid-column-gap/ grid-row-gap];}```
 
 # Flex
 O Flexbox Layout é um sistema unidimensional e flexível de organização e alinhamento de uma interface, priorizando o conteúdo.
