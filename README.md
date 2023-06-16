@@ -17,7 +17,7 @@ Flexível:
 ```.teste { display: grid; grid-template-columns: 33% 33% 33%;}```
 
 fr: 
-```.teste { display: grid; grid-template-columns: 1fr 1fr 1fr; }```
+```.teste { display: grid; grid-template-columns: 1fr 1fr 1fr;}```
 
 **Funcionalidades da Grid:**
 - Posicionamento e Alinhamento
@@ -49,7 +49,8 @@ Posicionamento das linhas dos itens
 O Flexbox Layout é um sistema unidimensional e flexível de organização e alinhamento de uma interface, priorizando o conteúdo.
 Ele não trabalha com o controle simultâneo das colunas e linhas, ou seja, ele lida com uma linha ou coluna de cada vez.
 
-**Eixos**
+**Eixos:**
+
 O Flex possui 2 eixos de operação, principais e transversais.
 
 - Principal:
@@ -58,7 +59,7 @@ movido na direção principal, original.
 - Transversal:
 movido perpendicular a direção principal.
 
-**Propriedades** 
+**Propriedades:** 
 
 Flex-Direction:
 ordem dos itens
