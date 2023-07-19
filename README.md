@@ -3,7 +3,7 @@ plano de aula extra
 
 A Grid e o Flexbox são modelos de layout compostos por dimensões diferentes que organizam os elementos de uma interface, ambos influenciam a estrutura do site através do CSS e normalmente susbstituem o uso do `float` e do `position`.
 
->>> # Grid
+> # Grid
 Grid Layout é um sistema bidimensional de organização de linhas, com conjuntos verticais e horizontais.
 Dentro de um grid, respeitando a **configuração criada pelas suas linhas**, pode-se inserir elementos da marcação com funcionalidades diferentes.
 
@@ -45,7 +45,7 @@ Posicionamento das linhas dos itens
 **Separadores:**
 ```.teste { display: grid; [grid-column-gap/ grid-row-gap];}```
 
->>> # Flex
+> # Flex
 O Flexbox Layout é um sistema unidimensional e flexível de organização e alinhamento de uma interface, priorizando o conteúdo.
 Ele não trabalha com o controle simultâneo das colunas e linhas, ou seja, ele lida com uma linha ou coluna de cada vez.
 
